@@ -30,7 +30,7 @@ ENV SPARK_LOCAL_IP 127.0.0.1
 #
 
 RUN set -ex \
-	&& pip3 install Jinja2 sympy numpy networkx ipython
+	&& pip3 install Jinja2 sympy numpy networkx ipython pytest
 
 RUN set -ex \
 	&& git clone https://github.com/tschijnmo/DummyRDD.git \
